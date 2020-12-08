@@ -15,3 +15,34 @@
 .heading_div2{
     font-size: 18px;
 }
+.result_para_tag{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+}
+@keyframes example{
+    from{box-shadow: 10px 10px 10px red;}
+    to{box-shadow: 10px 10px 10px yellow;}
+}
+.copy_right_footer{
+    position: fixed;
+    color: blue;
+    bottom: 0;
+    width: 100%;
+    background-color: lightseagreen;
+    line-height: 3;
+    text-align: center;
+}
+canvas{
+    border: 5px solid skyblue;
+    border-radius: 20px;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 290px;
+}
+@keyframes canvas{
+    from{box-shadow: 10px 10px 10px  skyblue;}
+    to{box-shadow: 10px 10px 10px lightgreen;}
+}
